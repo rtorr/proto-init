@@ -5,6 +5,8 @@
   <br>
 </h1>
 
+Quickly prototype an application with Parcel, Jest, and Typescript.
+
 ## Usage
 
 ```sh
@@ -13,11 +15,13 @@ npx proto-init <project-name>
 
 ```
 <project-name>
+├── README.md
 ├── index.html
 ├── src
 |  ├── index.tsx
 |  └── __tests__
 |     └── index.test.tsx
+├── .gitignore
 ├── .prettierrc
 ├── jest.config.js
 ├── package.json

@@ -1,6 +1,6 @@
 {
   "name": "proto-init",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Fast prototyping projects",
   "main": "bin/index.js",
   "bin": {
@@ -12,6 +12,15 @@
   "files": [
     "bin/index.js",
     "template"
+  ],
+  "keywords": [
+    "browser",
+    "require",
+    "commonjs",
+    "commonj-esque",
+    "bundle",
+    "npm",
+    "javascript"
   ],
   "author": "",
   "license": "ISC",
