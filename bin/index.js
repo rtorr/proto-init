@@ -21,7 +21,7 @@ if (args.length !== 1) {
         return console.error(err);
       }
       exec(
-        "npm install --save-dev @types/jest @types/jest jest parcel-bundler tslib typescript"
+        `cd ${projectPath} && npm install --save-dev @types/jest @types/jest jest parcel-bundler tslib typescript`
       ).stderr.pipe(process.stdout);
     });
   } else {
