@@ -1,6 +1,6 @@
 {
   "name": "proto-init",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Fast prototyping projects",
   "main": "bin/index.js",
   "bin": {
