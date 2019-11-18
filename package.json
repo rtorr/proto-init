@@ -1,29 +1,31 @@
 {
   "name": "proto-init",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "Fast prototyping projects",
   "main": "bin/index.js",
   "bin": {
     "proto-init": "bin/index.js"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": {
+    "name": "Richard Torruellas",
+    "email": "rtorruellas@gmail.com",
+    "url": "http://rtorr.com"
   },
   "files": [
     "bin/index.js",
     "template"
   ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/rtorr/proto-init.git"
+  },
   "keywords": [
-    "browser",
-    "require",
-    "commonjs",
-    "commonj-esque",
-    "bundle",
-    "npm",
+    "parcel",
+    "typescript",
+    "jest",
     "javascript"
   ],
-  "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "ncp": "^2.0.0"
   }
