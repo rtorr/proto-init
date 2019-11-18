@@ -3,5 +3,5 @@
 ## Usage
 
 ```sh
-
+npx proto-init <project-name>
 ```
