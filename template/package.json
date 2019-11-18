@@ -1,0 +1,14 @@
+{
+  "name": "proto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build src/index.tsx",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {}
+}
