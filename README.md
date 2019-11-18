@@ -10,3 +10,16 @@
 ```sh
 npx proto-init <project-name>
 ```
+
+```
+<project-name>
+├── index.html
+├── src
+|  ├── index.tsx
+|  └── __tests__
+|     └── index.test.tsx
+├── .prettierrc
+├── jest.config.js
+├── package.json
+└── tsconfig.json
+```
