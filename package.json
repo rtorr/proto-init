@@ -1,8 +1,11 @@
 {
   "name": "proto-init",
-  "version": "1.0.1",
+  "version": "2.0.1",
   "description": "Fast prototyping projects",
   "main": "bin/index.js",
+  "bin": {
+    "proto-init": "bin/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
